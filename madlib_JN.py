@@ -1,3 +1,4 @@
+import time
 print("Write a verb")
 verb1 = input()
 
@@ -18,9 +19,16 @@ adjective1 = input()
 
 print("Write a number")
 number1 = input()
+
+print("Write a liquid")
+liquid1 = input()
+
+print("Write an adjective")
+adjective2 = input()
 ### MAD LIB ###
 
 print("I always have wanted to" + verb1 + "."
       "Every" + timeofday1 + " I dream of" + verb2 + "."
       "Every night I" + verb3 + " in my" + noun1 + ", Which makes me feel" + adjective1 + ". "
-      "Last night I had" + number1 + "glasses of" +  )
+      "Last night I had" + number1 + "glasses of" + liquid1 +". Now I feel" + adjective2 + )
+time.sleep(200)
